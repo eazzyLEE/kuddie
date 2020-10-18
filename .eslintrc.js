@@ -31,7 +31,7 @@ module.exports = {
     'react/prop-types': 0,
     'no-use-before-define': [
       'error',
-      {functions: true, classes: true, variables: false},
+      { functions: true, classes: true, variables: false },
     ],
     'import/prefer-default-export': 0,
   },

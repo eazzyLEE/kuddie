@@ -10,14 +10,21 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
     "axios": "^0.20.0",
     "react": "16.13.1",
     "react-native": "0.63.3",
     "react-native-elements": "^3.0.0-alpha.1",
+    "react-native-gesture-handler": "^1.8.0",
     "react-native-global-props": "^1.1.5",
     "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-reanimated": "^1.13.1",
     "react-native-responsive-screen": "^1.4.1",
-    "react-native-root-toast": "^3.2.1"
+    "react-native-root-toast": "^3.2.1",
+    "react-native-router-flux": "^4.2.0",
+    "react-native-screens": "^2.11.0",
+    "react-native-track-player": "^1.2.3",
+    "react-native-vector-icons": "^7.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -26,8 +33,10 @@
     "babel-jest": "^25.1.0",
     "eslint": "^7.11.0",
     "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-react-hooks": "^4.1.2",
     "jest": "^25.1.0",
