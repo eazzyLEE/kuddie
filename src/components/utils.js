@@ -1,4 +1,5 @@
 // import { Platform, StyleSheet } from 'react-native';
+
 import {
   widthPercentageToDP as wdp,
   heightPercentageToDP as hdp,
@@ -7,6 +8,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 const CustomHeight = 667 - 24;
 const CustomWidth = 375;
+// const BaseUrl = 'https://us-central1-kuddie.cloudfunctions.net/user';
 
 export const hp = (value) => {
   const dimension = (value / CustomHeight) * 100;

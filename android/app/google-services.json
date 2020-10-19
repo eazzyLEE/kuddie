@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "601645727259",
+    "firebase_url": "https://kuddie.firebaseio.com",
+    "project_id": "kuddie",
+    "storage_bucket": "kuddie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601645727259:android:5b940d5bd3e6f4301c82be",
+        "android_client_info": {
+          "package_name": "com.kuddie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601645727259-fnd8riadnqinr33rlc258b5453479vsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeh8DIa7idn6o8KkVl9cEOIGuoRzAeEfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601645727259-fnd8riadnqinr33rlc258b5453479vsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
