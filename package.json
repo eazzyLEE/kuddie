@@ -31,12 +31,10 @@
     "react-native-root-toast": "^3.2.1",
     "react-native-router-flux": "^4.2.0",
     "react-native-screens": "^2.11.0",
-    "react-native-sound": "^0.11.0",
     "react-native-svg": "^12.1.0",
     "react-native-svg-icon": "^0.8.1",
     "react-native-track-player": "^1.2.3",
-    "react-native-vector-icons": "^7.1.0",
-    "react-track-player": "^1.0.8"
+    "react-native-vector-icons": "^7.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
