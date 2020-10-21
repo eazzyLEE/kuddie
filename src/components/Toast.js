@@ -13,7 +13,7 @@ const defaultConfig = {
   textStyle: {
     textAlign: 'center',
     fontSize: 14,
-    fontFamily: 'Graphik-Regular',
+    fontFamily: 'Graphik-Medium',
   },
   delay: 0,
   containerStyle: {

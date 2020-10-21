@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { setCustomText } from 'react-native-global-props';
+import { RootSiblingParent } from 'react-native-root-siblings';
 import Router from './Router';
 import { Black } from './components';
 
@@ -15,6 +16,10 @@ setCustomText(customTextProps);
 
 export default class App extends Component {
   render() {
-    return <Router />;
+    return (
+      <RootSiblingParent>
+        <Router />
+      </RootSiblingParent>
+    );
   }
 }

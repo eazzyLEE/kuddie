@@ -3,13 +3,21 @@ import { StyleSheet, TextInput } from 'react-native';
 import { wp, hp } from './utils';
 import { Snow200, Red } from './Colors';
 
-const Input = ({ error, onChangeText, placeholder, style, value }) => {
+const Input = ({
+  keyboardType,
+  error,
+  onChangeText,
+  placeholder,
+  style,
+  value,
+}) => {
   return (
     <TextInput
       value={value}
       onChangeText={onChangeText}
       style={[styles.input, style, error && styles.errorContainer]}
       placeholder={placeholder}
+      keyboardType={keyboardType}
     />
   );
 };

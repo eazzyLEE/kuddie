@@ -5,3 +5,4 @@ export const White = '#FFFFFF';
 export const Smoke400 = '#9DA8B6';
 export const Snow200 = '#CCCBCA';
 export const Red = '#EA2222';
+export const DarkBlue = '#087EC1';

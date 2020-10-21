@@ -10,15 +10,16 @@ const Intro = () => {
   const [phone, setPhone] = useState('');
 
   useEffect(() => {
-    return () => {
-      getPhone()
-        .then((data) => setPhone(data))
-        .catch(() => {});
-    };
+    getPhone()
+      .then((data) => setPhone(data))
+      .catch(() => {});
+    return () => {};
   }, []);
 
   const title = !phone ? 'Get Started' : 'Storytime';
-  const handleButton = () => Actions.register();
+  const handleButton = () =>
+    !phone ? Actions.register() : Actions.recordings();
+  console.log('init', phone);
 
   return (
     <View style={styles.background}>

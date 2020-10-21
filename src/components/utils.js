@@ -21,10 +21,24 @@ export const wp = (value) => {
 };
 
 export const getPhone = async () => {
-  const phone = await AsyncStorage.getItem('phone');
-  return phone || null;
+  try {
+    const phone = await AsyncStorage.getItem('phone');
+    if (phone !== null) {
+      const phoneItems = JSON.parse(phone);
+      return phoneItems;
+    }
+    return null;
+  } catch (error) {
+    return error;
+  }
 };
 
 export const savePhone = async (value) => {
-  await AsyncStorage.setItem('phone', value);
+  const stringifiedArray = JSON.stringify(value);
+  try {
+    await AsyncStorage.setItem('phone', stringifiedArray);
+  } catch (error) {
+    return error;
+  }
+  return stringifiedArray;
 };
