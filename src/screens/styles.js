@@ -87,6 +87,7 @@ export const recordingStyles = StyleSheet.create({
     // justifyContent: 'center',
     paddingLeft: wp(20),
     paddingRight: wp(20),
+    marginBottom: hp(10),
   },
   entityText: {
     color: White,
